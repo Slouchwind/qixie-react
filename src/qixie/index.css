@@ -1,0 +1,143 @@
+/*侧边栏以及大图标*/
+
+div#head {
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-color: #ecf6ff4b;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    /*Safari*/
+    width: 5%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+div#head a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#head a img {
+    margin: 20%;
+}
+
+div#header {
+    top: 0;
+    border-right: 1px solid #155da4;
+    position: fixed;
+    margin-left: 5%;
+    height: 90%;
+}
+
+img#index {
+    width: 33%;
+}
+
+img#about {
+    width: 50%;
+}
+
+img#icon {
+    width: 100%;
+}
+
+div.title {
+    width: 3em;
+    margin-top: -1.5em;
+    margin-left: 50%;
+    transform: translateX(-1.5em);
+}
+
+div.title>p {
+    font-size: 3em;
+}
+
+/*诗集卡片*/
+
+div.card {
+    padding: 0;
+    width: 55%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+div.card>div {
+    border-radius: 10px;
+    border: 2px solid var(--card-basic-border);
+    color: var(--card-basic-color);
+    background-color: #ffffff;
+    height: 30em;
+    padding: 1em;
+    width: 120px;
+    margin: 5px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+/*名字，信息，作者*/
+div.card>div p.name {
+    margin-top: 5px;
+    font-size: 2em;
+    width: 32px;
+}
+
+div.card>div p.info {
+    writing-mode: vertical-rl;
+    height: 10em;
+    margin-right: 0;
+}
+
+div.card>div p.author {
+    margin-left: 0;
+    width: 24px;
+    font-size: 1.5em;
+}
+
+/*更多*/
+div.card>div#cardMore {
+    border-color: var(--card-basic-border);
+    color: var(--card-more-color);
+    padding: 0;
+    height: 32em;
+    overflow: hidden;
+    width: 152px;
+}
+
+div.card>div#cardMore div {
+    margin-top: 31%;
+    margin-left: -2px;
+    border-radius: 10px;
+    border: 2px solid var(--card-basic-border);
+    color: var(--card-basic-color);
+    background-color: #ffffff;
+    width: 152px;
+    height: 90%;
+}
+
+div.card>div#cardMore div#p {
+    margin: auto;
+    width: 1.5em;
+    height: auto;
+    border: none;
+}
+
+div.card>div#cardMore p {
+    margin-top: 5em;
+    color: var(--card-basic-border);
+    font-size: 1.5em;
+}

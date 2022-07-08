@@ -1,0 +1,24 @@
+:root {
+    --main-bg: #ecf6ff;
+    --card-basic-border: #85b2df;
+    --card-basic-color: #0d191d;
+    --card-more-color: #186186;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #a7a7a7;
+}
+
+* {
+    font-family: "宋体", serif;
+}
+
+body {
+    margin: 0;
+    background-color: var(--main-bg);
+}
