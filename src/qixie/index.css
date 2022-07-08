@@ -141,3 +141,46 @@ div.card>div#cardMore p {
     color: var(--card-basic-border);
     font-size: 1.5em;
 }
+
+/*about页面*/
+
+img.userImg {
+    border-radius: 50%;
+    width: 45%;
+}
+
+div#allUser {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 55%;
+    margin: 5em auto;
+}
+
+div#allUser>div {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #0000000d;
+    width: 185px;
+    height: 130px;
+    float: left;
+    margin: 5px;
+}
+
+div#allUser p.name {
+    text-align: center;
+    margin-top: -40%;
+    margin-left: 60%;
+    padding: 5%;
+    width: 1.075em;
+    font-size: 1.075em;
+}
+
+div#allUser p.do {
+    text-align: center;
+    margin: 1.5em auto 0;
+    width: 80%;
+    height: 20%;
+    font-size: 1em;
+}

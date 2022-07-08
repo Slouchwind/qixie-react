@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Basic } from "./";
-import { Card, CardMore, Icon, Title } from "./small";
+import { Card, CardMore, Icon, Title, User } from "./small";
 import "../index.css";
 
 const index =
@@ -34,5 +34,26 @@ const index =
         </div>
     </Basic>
 
+const about =
+    <Basic>
+        <div id="allUser">
+            <User
+                id="2241051890"
+                name="春鹄"
+                do="前端设计与开发"
+            />
+            <User
+                id="2592589198"
+                name="敛翮"
+                do="提供主要设计方案"
+            />
+            <User
+                id="2975537244"
+                name="凤翎"
+                do="与设计辩论，并帮助设计"
+            />
+        </div>
+    </Basic>
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(index);
+root.render(about);

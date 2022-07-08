@@ -38,3 +38,12 @@ export function CardMore() {
     );
 }
 
+export function User(props = { id: "", name: "", do: "" }) {
+    return (
+        <div>
+            <img src={`https://q1.qlogo.cn/g?b=qq&s=0&nk=${props.id}`} class="userImg" />
+            <p class="name">{props.name}</p>
+            <p class="do">{props.do}</p>
+        </div>
+    );
+}
