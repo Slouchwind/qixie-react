@@ -20,7 +20,7 @@ export class Head extends React.Component {
                         id="index"
                     />
                     <LinkBlock
-                        href="./about"
+                        href="./about.html"
                         src="https://pic.lienav.com/i/2022/04/18/625d0474af435.png"
                         id="about"
                     />

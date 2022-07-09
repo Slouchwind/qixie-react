@@ -58,4 +58,4 @@ const about =
     </Basic>
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(index);
+root.render(about);
