@@ -4,6 +4,7 @@ import { Basic } from "./";
 import { Card, CardMore, Icon, Title, User } from "./small";
 import "../index.css";
 
+// eslint-disable-next-line
 const index =
     <Basic>
         <Icon />
@@ -34,6 +35,7 @@ const index =
         </div>
     </Basic>
 
+// eslint-disable-next-line
 const about =
     <Basic>
         <div id="allUser">

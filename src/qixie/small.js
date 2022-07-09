@@ -9,7 +9,7 @@ export function Title(props) {
 }
 
 export function Icon() {
-    return <img src="https://pic.lienav.com/i/2022/04/18/625d6ff5c9e3e.jpeg" id="icon" />;
+    return <img src="https://pic.lienav.com/i/2022/04/18/625d6ff5c9e3e.jpeg" id="icon" alt="icon"/>;
 }
 
 export function Card(props = { name: "", info: "", author: "" }) {
@@ -41,7 +41,7 @@ export function CardMore() {
 export function User(props = { id: "", name: "", do: "" }) {
     return (
         <div>
-            <img src={`https://q1.qlogo.cn/g?b=qq&s=0&nk=${props.id}`} class="userImg" />
+            <img src={`https://q1.qlogo.cn/g?b=qq&s=0&nk=${props.id}`} class="userImg" alt="头像"/>
             <p class="name">{props.name}</p>
             <p class="do">{props.do}</p>
         </div>
