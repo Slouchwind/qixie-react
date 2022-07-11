@@ -31,11 +31,19 @@ export class Head extends React.Component {
     }
 }
 
-export function Basic(props) {
-    return (
-        <>
-            <Head />
-            {props.children}
-        </>
-    );
+export class Basic extends React.Component {
+    constructor(props) {
+        super(props);
+        document.onselectstart = function () { return false; }
+        document.oncontextmenu = function () { return false; }
+    }
+
+    render() {
+        return (
+            <>
+                <Head />
+                {this.props.children}
+            </>
+        );
+    }
 }
